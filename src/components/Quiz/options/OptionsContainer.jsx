@@ -6,10 +6,10 @@ export const OptionsContainer=({question})=>{
         <div>
             <ul>
                 {
-                    question.options.map(option=><OptionBtn  questionTitle={question.title} option={option}/>)
+                    question.options.map(option=><OptionBtn key={option}  questionTitle={question.title} option={option}/>)
                 }
             </ul>
-            
+
         </div>
     )
 }

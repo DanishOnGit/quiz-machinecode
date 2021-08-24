@@ -5,7 +5,7 @@ export const QuizContext = createContext();
 const initialState = {
   selectedQuiz: null,
   currentQuestionNumber: 1,
-  isSelected:false,
+  selectedOption:null,
   selectedOptionIsCorrect: null,
 };
 
